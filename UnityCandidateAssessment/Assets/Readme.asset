@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 407619c5c19a54982b3880b5a085c597, type: 3}
+  iconMaxWidth: 192
+  title: Readme Tutorial
+  sections:
+  - heading: About
+    text: This project contains 5 problems for a candidate to address, details of
+      each problem can be found below.
+    linkText: 
+    url: 
+  - heading: 'Problem 1: .gitignore file'
+    text: Create an appropriate .gitignore file for this Unity project.
+    linkText: 
+    url: 
+  - heading: 'Problem 2: Parameter validation'
+    text: Find the file validation.cs. Fix the problems with the file and explain
+      your reasoning in comments.
+    linkText: 
+    url: 
+  - heading: 'Problem 3: VR Controls'
+    text: Open the scene 'default' and add to the XR Origin object a way to move
+      using the left controller thumbstick and turn using the right controller thumbstick.
+    linkText: 
+    url: 
+  - heading: 'Problem 4: Physics interaction'
+    text: There are 2 spheres in the scene 'default', with the red sphere having
+      the checkoverlap.cs component added. Currently the OnTriggerEnter and OnTriggerExit
+      callbacks aren't being called. Explain why this is the case and correct the
+      error.
+    linkText: 
+    url: 
+  - heading: 'Problem 5: Git'
+    text: Submit a pull request for all the changes made to the project. This will
+      serve as the final problem, and also the submission method.
+    linkText: 
+    url: 
+  - heading: About this readme
+    text: Created by John Albin
+    linkText: Github/JohnAlbin/UnityReadme
+    url: https://github.com/JohnAlbin/UnityReadme
+  loadedLayout: 0
